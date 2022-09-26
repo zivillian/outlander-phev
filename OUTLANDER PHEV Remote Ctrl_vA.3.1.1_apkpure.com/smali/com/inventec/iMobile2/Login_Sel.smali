@@ -39,7 +39,7 @@
 
     move-result-object v1
 
-    const/4 v2, 0x0
+    const/4 v2, 0x1
 
     :try_start_0
     new-instance v3, Ljava/util/zip/ZipFile;
@@ -319,7 +319,7 @@
     :goto_1
     invoke-static {v0}, Lcom/inventec/iMobile2/z1/b;->a(Ljava/lang/String;)V
 
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
     return v0
 .end method
